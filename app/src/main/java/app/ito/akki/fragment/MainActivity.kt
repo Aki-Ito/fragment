@@ -3,6 +3,7 @@ package app.ito.akki.fragment
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
+//最初にHogeFragmentが表示。HogeFragment内のボタンが押されるとFugaFragmentに切り替わる。
 class MainActivity : AppCompatActivity(), HogeFragment.OnHogeFragmentListener, FugaFragment.OnFugaFragmentListener {
 
 
